@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+.header {
+  color: white;
+  width: 100%;
+  height: 64px;
+  background: black;
+  display: flex;
+  align-items: center;
+}
+.black {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 79px;
+  height: 27px;
+  background-image: url(images/Logo.png);
+  background-repeat: no-repeat;
+}
+.menu {
+  width: 40%;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.menu-item {
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.menu-item:nth-child(1) {
+  margin-left: 0;
+}
+.town {
+  width: 100%;
+  height: calc(100vh - 64px - 105px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(./images/Town.png);
+  background-size: cover;
+  color: #f5f5f5;
+}
+.town-title {
+  width: 40%;
+}
+.m-b-2 {
+  margin-bottom: 2rem;
+}
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.login {
+  padding: 10px 20px 20px 20px;
+  width: 360px;
+  background-color: #dfdfdf;
+  border-radius: 5px;
+}
+input {
+  display: block;
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  color: #bdbdbd;
+}
+.form-title {
+  text-align: center;
+  color: #333333;
+  margin: 10px 0 30px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+.button {
+  width: 100%;
+  background-color: #ff8b38;
+  color: #fff;
+  border: none;
+}
+.big-logo {
+  height: 60px;
+  width: 175px;
+  background-image: url(./images/big\ Logo.png);
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+}
+.line-white {
+  width: 100px;
+  height: 2px;
+  margin: 2rem 0;
+  background-color: #f5f5f5;
+}
+.social {
+  width: 100%;
+  height: 105px;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 5px black;
+  position: relative;
+}
+.social-text {
+  width: 30%;
+}
+.box-icon {
+  background-color: #3333339f;
+  border-radius: 15px;
+}
+.flex {
+  display: flex;
+}
+.square {
+  width: 112px;
+  height: 112px;
+  color: #fff;
+  text-align: center;
+  line-height: 112px;
+  background-color: #333333;
+  cursor: pointer;
+}
+.rad-t-5 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.rad-b-5 {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.square:nth-child(2) {
+  margin: 2px 0;
+}
+.square:nth-child(1):hover {
+  background-color: #ff8b38;
+}
+.square:nth-child(2):hover {
+  background-color: #ff8b38;
+}
+.square:nth-child(3):hover {
+  background-color: #ff8b38;
+}
+.content-img {
+  background-image: url(./images/mini-city.svg);
+}
+.content-text {
+  width: 45%;
+}
+.mar-b {
+  margin-bottom: 4vh;
+}
+.content-btn {
+  color: #ff8b38;
+  border: 2px solid #ff8b38;
+  background-color: transparent;
+}
+.content-btn:hover {
+  color: #ffffff;
+  background-color: #ff8b38;
+}
+.awesome {
+  text-align: center;
+  padding-top: 102px;
+}
+.line {
+  width: 102px;
+  height: 2px;
+  margin: 22px auto;
+  background-color: #ff8b38;
+}
+.color-gray {
+  color: #86878b;
+}
+.card {
+  display: inline-block;
+  width: 20%;
+  margin-top: 8vh;
+}
+.card-image {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 27px;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.light {
+  background-image: url(./images/лампочка.png);
+}
+.keyboard {
+  background-image: url(./images/клавиатура.png);
+}
+.levin {
+  background-image: url(./images/молния.png);
+}
+.m-rl-33 {
+  margin: 0 33px;
+}
+.form-title {
+  margin-bottom: 66px;
+}
+.wrapper {
+  margin-bottom: 102px;
+}
+.content {
+  width: 100%;
+  padding: 8rem 0;
+  background: #f5f5f5;
+}
+.line-content {
+  width: 64px;
+}
+.list-style {
+  display: inline-block;
+  padding: 0;
+  list-style: none;
+  width: 30%;
+  height: 462px;
+  text-align: center;
+  color: #f5f5f5;
+}
+.grey {
+  background: #333333;
+}
+.bill-title {
+  height: 59px;
+  line-height: 59px;
+}
+.bill {
+  margin: 1px 0;
+  height: 100px;
+  line-height: 100px;
+}
+.bill-subtitle {
+  height: 50px;
+  line-height: 50px;
+  font-style: italic;
+}
+.bill-orange {
+  height: 5px;
+  background: #ff8b38;
+}
+.bill-pin {
+  height: 40px;
+  line-height: 40px;
+  background: white;
+  color: #86878b;
+  text-transform: uppercase;
+  margin: 1px 0 auto;
+}
+.h40 {
+  height: 40px;
+  line-height: 40px;
+}
+.m-rl-40 {
+  margin: 0 40px;
+}
+.m-a {
+  margin: 60px auto;
+  width: 80%;
+}
+.font-it {
+  font-style: italic;
+  padding: 1vh;
+}
+.al-it-cntr {
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.box-opinion {
+  width: 80%;
+  margin: 8vh auto;
+  justify-content: space-around;
+}
+.opinion {
+  width: 290px;
+  height: 127px;
+  background-color: #f5f5f5;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid #f5f5f5;
+  margin-left: 25px;
+}
+.photo {
+  width: 70px;
+  height: 70px;
+  background-image: url(./images/avatar_2_u231\ 1.png);
+  background-size: cover;
+}
+.m-l-2vw {
+  margin-left: 2vw;
+}
+.section {
+  width: 100%;
+  height: 297px;
+  color: white;
+  background-image: url(./images/architecture-1850129_1920\ 1.png);
+  background-size: cover;
+  text-align: center;
+}
+.color-city {
+  height: 297px;
+  background: rgba(51, 51, 51, 0.58);
+}
+.city-title {
+  padding-top: 80px;
+}
+.line-city {
+  width: 64px;
+  height: 2px;
+  margin: 22px auto;
+  background-color: white;
+}
+button {
+  border-radius: 4px;
+  border: 2px solid white;
+  padding: 12px 30px;
+  margin-top: 40px;
+  font-size: 20px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+  color: rgba(51, 51, 51, 0.58);
+  border-radius: 4px;
+  border: 2px solid white;
+  padding: 12px 30px;
+  margin-top: 40px;
+  font-size: 20px;
+}
+.contact__item{
+  width: 527px;
+}
+.contact__data{
+  width: 527px;
+  margin-right:3vw;
+}
+.contact__button{
+  width: 163px;
+  font-size: 15px;
+}
+.contact__button:hover{
+  width: 163px;
+  font-size: 14px;
+  color: #333333;
+}
+.footer {
+  height: 124px;
+  text-align: center;
+  display: block;
+}
+.icon {
+  display: inline-block;
+  margin: 20px 40px 40px;
+}
