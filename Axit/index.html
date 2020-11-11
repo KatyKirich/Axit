@@ -335,16 +335,30 @@
         </div>
         <form class="contact box-opinion">
           <div class="flex">
-          <div class="contact__data">
-          <label class="contact__item"> <input type="text" placeholder="Name" autofocus /></label>
-          <label class="contact__item"> <input type="email" placeholder="Email" autofocus /></label>
-          <label class="contact__item"> <input type="text" placeholder="Subject" autofocus /></label>
+            <div class="contact__data">
+              <label class="contact__item">
+                <input type="text" placeholder="Name"
+              /></label>
+              <label class="contact__item">
+                <input type="email" placeholder="Email"
+              /></label>
+              <label class="contact__item">
+                <input type="text" placeholder="Subject"
+              /></label>
+            </div>
+            <textarea
+              class="contact__item"
+              name="text"
+              cols="30"
+              rows="10"
+              style="resize: none"
+              placeholder="Message"
+            >
+            </textarea>
           </div>
-        <textarea name="text" cols="30" rows="10">
-          <label class="contact__item">  <input type="text" placeholder="Message" autofocus /></label>
-        </textarea>
-        </div>
-          <button class="button contact__button"><span>Send Message</span></button>
+          <button class="button contact__button">
+            <span>Send Message</span>
+          </button>
         </form>
       </section>
     </main>

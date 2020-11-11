@@ -344,18 +344,22 @@ button:hover {
   margin-top: 40px;
   font-size: 20px;
 }
-.contact__item{
+.contact__item {
   width: 527px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  color: #bdbdbd;
 }
-.contact__data{
+.contact__data {
   width: 527px;
-  margin-right:3vw;
+  margin-right: 3vw;
 }
-.contact__button{
+.contact__button {
   width: 163px;
   font-size: 15px;
 }
-.contact__button:hover{
+.contact__button:hover {
   width: 163px;
   font-size: 14px;
   color: #333333;
