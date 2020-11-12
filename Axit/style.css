@@ -358,6 +358,9 @@ button:hover {
 .contact__button {
   width: 163px;
   font-size: 15px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 .contact__button:hover {
   width: 163px;
